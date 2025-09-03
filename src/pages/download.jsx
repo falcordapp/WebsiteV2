@@ -5,11 +5,11 @@ import MetaTags from '../components/metaTags.jsx';
 const Download = () => {
   return (
     <div>
-      <MetaTags title="Oldcord — Download Oldcord Desktop Client" description="Download Oldcord Desktop Client to use Oldcord on your desktop. Great for use."/>
+      <MetaTags title="Falcord — Download Falcord Desktop Client" description="Download Falcord Desktop Client to use Falcord on your desktop. Great for use."/>
       <div className={styles.header}>
         <div className={styles["tagline-container"]}>
           <div className={styles["tagline-title"]}>
-            Download Oldcord Desktop Client
+            Download dalcord Desktop Client
           </div>
           <div className={`${styles["tagline-subtitle"]} text-light-gray`}>
             Patched desktop client generously provided by CordPackers
