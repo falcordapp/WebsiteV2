@@ -11,8 +11,8 @@ const About = () => {
   return (
     <div>
       <MetaTags
-        title="Oldcord — About"
-        description="Find out what we do on Oldcord and how we do it here."
+        title="Falcord — About"
+        description="Find out what we do on Falcord and how we do it here."
       />
       <div className={styles.header}>
         <div className={styles["tagline-container"]}>
