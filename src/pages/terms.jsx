@@ -10,7 +10,7 @@ const Terms = () => {
         <div className={styles["tagline-container"]}>
           <div className={styles["tagline-title"]}>Terms and Conditions</div>
           <div className={`${styles["tagline-subtitle"]} text-light-gray`}>
-            Last Updated: November 15th, 2024 | Effective: TBD
+            Last Updated: September 3rd, 2025 | Effective: TBD
           </div>
         </div>
       </div>
@@ -18,9 +18,12 @@ const Terms = () => {
         <div className={sectionStyles["section-content"]}>
           <span className={sectionStyles.title}>Introduction</span>
           <span className={sectionStyles.text}>
-            Welcome! Oldcord is the best place to experience what your favorite
+            Welcome! Falcord is the best place to experience what your favorite
             instant messaging service looked like in the past. We're happy
             you're here.
+          </span>
+          <span className={sectionStyles.text} style={{ marginBottom: "5px", fontStyle: "italic" }}>
+            (we have to include these for legal reasons! legal stuff bla bla bla, i know.)
           </span>
           <span className={sectionStyles.text}>
             These terms set forth our legal obligations to each other. They
@@ -48,7 +51,7 @@ const Terms = () => {
             information about your use of our instance.
           </span>
           <span className={sectionStyles.text}>
-            Together, these rules make Oldcord possible, and they matter to us.
+            Together, these rules make Falcord possible, and they matter to us.
             If you believe others aren't following them, please let us know by
             reporting it to us.
           </span>
@@ -77,7 +80,7 @@ const Terms = () => {
             What you can expect from us
           </span>
           <span className={sectionStyles.text}>
-            Oldcord provides different digital spaces where you can connect with
+            Falcord provides different digital spaces where you can connect with
             other users and communities. Users communicate primarily via
             "servers", which are digital spaces made up of different channels.
             Text channels allow users to interact via text-based messages, as
@@ -92,9 +95,9 @@ const Terms = () => {
             requirements and creating custom roles and what those roles can do
             within the server.
           </span>
-          <span className={sectionStyles.title}>Your Oldcord account</span>
+          <span className={sectionStyles.title}>Your Falcord account</span>
           <span className={sectionStyles.text}>
-            To access the instance, you will need to create an Oldcord account.
+            To access the instance, you will need to create an Falcord account.
             You can provide a username and password, and a way of contacting you
             (such as an email address).
           </span>
@@ -106,7 +109,7 @@ const Terms = () => {
             Oldcord account.
           </span>
           <span className={sectionStyles.text}>
-            You must always provide accurate information to Oldcord and maintain
+            You must always provide accurate information to Falcord and maintain
             the accuracy of the information associated with your account. We may
             assume that any communications we've received from your account or
             the associated contact information have been made by you.
@@ -131,7 +134,7 @@ const Terms = () => {
           </span>
           <span className={sectionStyles.text} style={{ marginBottom: "0" }}>
             Your content is yours, but you give us a license to it when you use
-            Oldcord. Your content may be protected by certain intellectual
+            Falcord. Your content may be protected by certain intellectual
             property rights. We don't own those. But by using our instance, you
             grant us a license—which is a form of permission—to do the following
             with your content:
@@ -173,7 +176,7 @@ const Terms = () => {
             Our instance might also provide you with access to other people's
             content. You may not use this content without that person's consent,
             or as allowed by law. Other people's content is theirs and doesn't
-            necessarily reflect Oldcord's own views. We don't endorse or verify
+            necessarily reflect Falcord's own views. We don't endorse or verify
             the accuracy or reliability of content shared by Oldcord users.
           </span>
           <span className={sectionStyles.title}>
@@ -197,7 +200,7 @@ const Terms = () => {
               auto-messaging, or auto-dialing people through our instance.
             </li>
             <li className={sectionStyles.text}>
-              Don't use the instance to do harm to Oldcord. Among other things,
+              Don't use the instance to do harm to Falcord. Among other things,
               this includes trying to gain access to or attacking our systems,
               scraping our instance without our written consent, transmitting
               viruses or other malicious code to our instance, abusing or
@@ -218,7 +221,7 @@ const Terms = () => {
           <span className={sectionStyles.text}>
             You're free to stop using our instance at any time and for any
             reason. To terminate this agreement, you can contact us at
-            <span className={sectionStyles.bold}> contact@noia.site</span> to
+            <span className={sectionStyles.bold}> ErrorOliver+falcord@protonmail.com</span> to
             request account deletion and discontinue use of the instance.
           </span>
 
@@ -256,7 +259,7 @@ const Terms = () => {
 
           <span className={sectionStyles.title}>Instance "AS IS"</span>
           <span className={sectionStyles.text}>
-            Oldcord is still under development, so some features may be
+            Falcord is still under development, so some features may be
             incomplete or have bugs. Our Instance are provided "AS IS" without
             warranties of any kind. We do not guarantee that all features will
             be available or functional. Complaining won't speed up fixes; it
@@ -265,7 +268,7 @@ const Terms = () => {
             your own risk.
           </span>
           <span className={sectionStyles.text}>
-            TO THE FULLEST EXTENT PERMITTED BY LAW, OLDCORD AND ITS AFFILIATES
+            TO THE FULLEST EXTENT PERMITTED BY LAW, FALCORD AND ITS AFFILIATES
             MAKE NO WARRANTIES, EITHER EXPRESS OR IMPLIED, ABOUT THE INSTANCE.
             WE ALSO DISCLAIM ANY IMPLIED WARRANTIES OF MERCHANTABILITY, FITNESS
             FOR A PARTICULAR PURPOSE, QUIET ENJOYMENT, AND NON-INFRINGEMENT, AND
@@ -300,7 +303,7 @@ const Terms = () => {
             >
               Entire agreement.
             </span>
-            {" "}These terms cover the entire agreement between you and Oldcord for
+            {" "}These terms cover the entire agreement between you and Falcord for
             your use of our instance.
           </span>
           <span className={sectionStyles.text}>
@@ -321,7 +324,7 @@ const Terms = () => {
             </span>
             {" "}We support the responsible reporting of security
             vulnerabilities. To report a security issue, please contact us at
-            <span className={sectionStyles.bold}> contact@noia.site</span>.
+            <span className={sectionStyles.bold}> ErrorOliver+falcord@protonmail.com</span>.
           </span>
 
           <span className={sectionStyles.title}>Updates to these terms</span>
@@ -340,7 +343,7 @@ const Terms = () => {
           <span className={sectionStyles.title}>Contacting each other</span>
           <span className={sectionStyles.text}>
             If you have any questions about these terms, please contact us at
-            <span className={sectionStyles.bold}> contact@noia.site</span>.
+            <span className={sectionStyles.bold}> ErrorOliver+falcord@protonmail.com</span>.
           </span>
         </div>
       </div>
