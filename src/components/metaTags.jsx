@@ -1,6 +1,6 @@
 const MetaTags = ({
-    title = 'Oldcord',
-    description = 'Oldcord, it is website. He is for old instant-messager. Good for use.',
+    title = 'Falcord',
+    description = 'Falcord, it is website. He is for old instant-messager. Good for use.',
 }) => {
     return (
         <>
