@@ -344,7 +344,7 @@ const MainPage = () => {
         <div className={styles["upsell-section-dark"]}>
           <div className={styles["upsell-section-use-now"]}>
             <span className={styles["upsell-title"]}>
-              Use Oldcord now puhhhlease!
+              Use Falcord now puhhhlease!
             </span>
             <span className={styles["upsell-text"]}>
               Experience non-bloat messaging nostalgia!
@@ -355,7 +355,7 @@ const MainPage = () => {
               onClick={(e) => {
                 e.preventDefault();
                 onGetStarted("https://falcord.ixchats.com/selector");
-              }} style={{'display' : 'none'}}
+              }}
             >
               Get Started
             </a>
