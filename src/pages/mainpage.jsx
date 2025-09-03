@@ -186,9 +186,9 @@ const MainPage = () => {
             href="https://github.com/falcordapp/FalCordV3"
             className="button-link"
           >
-            <span className={`button button-white ${styles.button}`}>
+            <!--<span className={`button button-white ${styles.button}`}>
               Host your own Falcord instance
-            </span>
+            </span>-->
           </a>
         </div>
         {tooltip.visible && tooltip.x && tooltip.y && (
