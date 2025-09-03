@@ -5,12 +5,12 @@ import MetaTags from "../components/metaTags.jsx";
 const Guidelines = () => {
   return (
     <div>
-      <MetaTags title="Oldcord — Instance Guidelines" />
+      <MetaTags title="Falcord — Instance Guidelines" />
       <div className={styles.header}>
         <div className={styles["tagline-container"]}>
           <div className={styles["tagline-title"]}>Instance Guidelines</div>
           <div className={`${styles["tagline-subtitle"]} text-light-gray`}>
-            Last Updated: November 15th, 2024 | Effective: TBD
+            Last Updated: September 3rd, 2025 | Effective: TBD
           </div>
         </div>
       </div>
@@ -18,13 +18,16 @@ const Guidelines = () => {
         <div className={sectionStyles["section-content"]}>
           <span className={sectionStyles.title}>Introduction</span>
           <span className={sectionStyles.text}>
-            Welcome to Oldcord! We created Oldcord to be a safe and enjoyable
+            Welcome to Falcord! We created Falcord to be a safe and enjoyable
             environment where everyone can express themselves and find community
             — but not at the expense of anyone else.
           </span>
           <span className={sectionStyles.text}>
-            These Guidelines explain what isn't allowed on Oldcord. Everyone on
-            Oldcord must follow these rules, and they apply to all parts of our
+            (we have to include these for legal reasons! legal stuff bla bla bla, i know.)
+          </span>
+          <span className={sectionStyles.text}>
+            These Guidelines explain what isn't allowed on Falcord. Everyone on
+            Falcord must follow these rules, and they apply to all parts of our
             Instance, including your content, behaviors, and interactions.
             Please note that this only applies to our Instance; third-party
             instances might have different guidelines.
@@ -115,7 +118,7 @@ const Guidelines = () => {
               includes artificially inflating user engagement.
             </li>
             <li className={sectionStyles.text}>
-              Do not sell or purchase Oldcord assets, including accounts,
+              Do not sell or purchase Falcord assets, including accounts,
               usernames, or other platform assets.
             </li>
             <li className={sectionStyles.text}>
@@ -125,7 +128,7 @@ const Guidelines = () => {
               processes.
             </li>
             <li className={sectionStyles.text}>
-              Do not misrepresent your identity on Oldcord in a deceptive or
+              Do not misrepresent your identity on Falcord in a deceptive or
               harmful way. This includes creating fake profiles and attempts to
               impersonate others.
             </li>
@@ -139,7 +142,7 @@ const Guidelines = () => {
               distribution, and denial-of-service attacks.
             </li>
             <li className={sectionStyles.text}>
-              Do not use Oldcord to promote or execute financial scams.
+              Do not use Falcord to promote or execute financial scams.
             </li>
             <li className={sectionStyles.text}>
               Do not engage in fraudulent activities or facilitate fraud. This
@@ -150,8 +153,8 @@ const Guidelines = () => {
               Do not submit false or misleading reports to Oldcord support.
             </li>
             <li className={sectionStyles.text}>
-              Do not treat Oldcord developers in an inhumane way or treat them
-              as "tech support".
+              Do not treat Falcord developers in an inhumane way, thx. <!--or treat them
+              as "tech support".--.>
             </li>
           </ol>
           <span className={sectionStyles.title}>Follow the Law</span>
@@ -190,7 +193,7 @@ const Guidelines = () => {
           <span className={sectionStyles.title}>Ending Words</span>
           <span className={sectionStyles.text}>
             Just be a good person — treat others how you want to be treated —
-            and we won't get in your way. Thank you for helping keep Oldcord a
+            and we won't get in your way. Thank you for helping keep Falcord a
             safe and enjoyable space for everyone.
           </span>
         </div>
