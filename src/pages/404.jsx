@@ -11,7 +11,7 @@ const FourOhFour = () => {
 
   return (
     <div>
-      <MetaTags title="Oldcord — Not Found" description="" />
+      <MetaTags title="Falcord — Not Found" description="" />
       <div className={styles.section}>
         <div className={styles["section-content"]}>
           <span className={styles.title}>
@@ -45,11 +45,11 @@ const FourOhFour = () => {
             </li>
             <li className={styles.text}>
               <a
-                href="https://staging.oldcordapp.com"
+                href="https://falcord.ixchats.com"
                 className={styles.bold}
                 onClick={(e) => {
                   e.preventDefault();
-                  onGetStarted("https://staging.oldcordapp.com");
+                  onGetStarted("https://falcord.ixchats.com");
                 }}
               >
                 Go Back to Oldcord{" "}
