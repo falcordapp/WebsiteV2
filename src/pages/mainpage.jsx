@@ -150,7 +150,7 @@ const MainPage = () => {
 
   const handleImageClick = (e, releaseDateCode) => {
     e.preventDefault();
-    const redirectUrl = `https://staging.oldcordapp.com/launch?release_date=${releaseDateCode}`;
+    const redirectUrl = `https://falcord.ixchats.com/launch?release_date=${releaseDateCode}`;
     if (Cookies.get("legal_agreed") === "true") {
       window.location.href = redirectUrl;
     } else {
@@ -161,8 +161,8 @@ const MainPage = () => {
   return (
     <div>
       <MetaTags
-        title="Oldcord — Late 2010s instant messaging service revival"
-        description="Oldcord revives late 2010s instant messaging. Relive nostalgia while connecting with friends and building your own community in a familiar setting."
+        title="Falcord — Late 2010s instant messaging service revival"
+        description="Falcord revives late 2010s instant messaging. Relive nostalgia while connecting with friends and building your own community in a familiar setting."
       />
       <div className={styles.header}>
         <div className={styles["tagline-container"]}>
@@ -173,21 +173,21 @@ const MainPage = () => {
         </div>
         <div className={styles["button-container"]}>
           <a
-            href="https://staging.oldcordapp.com/selector"
+            href="https://falcord.ixchats.com/selector"
             className={`button button-hurple button-pushLeft ${styles.button}`}
             onClick={(e) => {
               e.preventDefault();
-              onGetStarted("https://staging.oldcordapp.com/selector");
+              onGetStarted("https://falcord.ixchats.com/selector");
             }} style={{'display' : 'none'}}
           >
             Get Started
           </a>
           <a
-            href="https://github.com/oldcordapp/OldCordV3"
+            href="https://github.com/falcordapp/FalCordV3"
             className="button-link"
           >
             <span className={`button button-white ${styles.button}`}>
-              Host your own Oldcord instance
+              Host your own Falcord instance
             </span>
           </a>
         </div>
@@ -350,11 +350,11 @@ const MainPage = () => {
               Experience non-bloat messaging nostalgia!
             </span>
             <a
-              href="https://staging.oldcordapp.com/selector"
+              href="https://falcord.ixchats.com/selector"
               className={`button button-hurple ${styles.button} ${styles["upsell-button"]}`}
               onClick={(e) => {
                 e.preventDefault();
-                onGetStarted("https://staging.oldcordapp.com/selector");
+                onGetStarted("https://falcord.ixchats.com/selector");
               }} style={{'display' : 'none'}}
             >
               Get Started
