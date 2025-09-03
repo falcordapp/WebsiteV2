@@ -6,7 +6,7 @@ import MetaTags from "../components/metaTags.jsx";
 const Thanks = () => {
   return (
     <div>
-      <MetaTags title="Oldcord — Special Thanks" />
+      <MetaTags title="Falcord — Special Thanks" />
       <div className={styles.header}>
         <div className={styles["tagline-container"]}>
           <div className={`${styles["tagline-title"]}`}>Special Thanks!</div>
@@ -15,6 +15,9 @@ const Thanks = () => {
           </div>
         </div>
       </div>
+          <span className={sectionStyles.text}>
+            (erm what the sigma? this is only for the original oldcord lol)
+          </span>
       <div className={`${styles["thanks-section"]} ${sectionStyles.section}`}>
         <div
           className={sectionStyles["section-content"]}
