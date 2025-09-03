@@ -17,7 +17,7 @@ const Footer = ({ onGetStarted, textColorClass }) => {
           <div className={styles["navigation-section"]}>
             <span className={styles["navigation-header"]}>Oldcord-related</span>
             <span className={styles["navigation-link"]}>
-              <Link to="about">About Oldcord</Link>
+              <Link to="about">About Falcord</Link>
             </span>
             <span className={styles["navigation-link"]}>
               <Link to="download">Download</Link>
@@ -58,7 +58,7 @@ const Footer = ({ onGetStarted, textColorClass }) => {
           <div className={styles["navigation-section"]}>
             <span className={styles["navigation-header"]}>More</span>
             <span className={styles["navigation-link"]}>
-              <a href="https://github.com/oldcordapp/OldCordV3?tab=readme-ov-file#project-support-outline">
+              <a href="https://github.com/falcordapp/FalCordV3?tab=readme-ov-file#project-support-outline">
                 Reimplementaion progress
               </a>
             </span>
@@ -73,7 +73,7 @@ const Footer = ({ onGetStarted, textColorClass }) => {
               What are you waiting for?
             </span>
             <span className={styles["upsell-text-subtitle"]}>
-              Use Oldcord now!
+              Use Falcord now!
             </span>
           </div>
           <span>
@@ -94,7 +94,7 @@ const Footer = ({ onGetStarted, textColorClass }) => {
           className={`${styles.notice} ${textColorClass} ${styles[textColorClass]}`}
           style={{ marginTop: "40px" }}
         >
-          Oldcord is an old Discord historical preservation/revival project and
+          Falcord is an old Discord historical preservation/revival project and
           is not affiliated with or endorsed by Discord, Inc. This website and
           related projects have been built from the ground up and does not
           incorporate any code from Discord.
@@ -102,7 +102,7 @@ const Footer = ({ onGetStarted, textColorClass }) => {
         <span
           className={`${styles.notice} ${textColorClass} ${styles[textColorClass]}`}
         >
-          Some registered trademarks may appear on Oldcord, and those rights
+          Some registered trademarks may appear on Falcord, and those rights
           (along with others) belong to their respective owners. In short, they
           are not ours.
         </span>
