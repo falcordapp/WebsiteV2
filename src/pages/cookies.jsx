@@ -6,12 +6,12 @@ import MetaTags from "../components/metaTags.jsx";
 const Cookies = () => {
   return (
     <div>
-      <MetaTags title="Oldcord — Cookie Policy" />
+      <MetaTags title="Falcord — Cookie Policy" />
       <div className={styles.header}>
         <div className={styles["tagline-container"]}>
           <div className={styles["tagline-title"]}>Cookie Policy</div>
           <div className={`${styles["tagline-subtitle"]} text-light-gray`}>
-            Last Updated: November 15th, 2024 | Effective: TBD
+            Last Updated: September 3rd, 2025 | Effective: TBD
           </div>
         </div>
       </div>
@@ -45,7 +45,7 @@ const Cookies = () => {
               <span className={sectionStyles.bold}>User Dialog Box: </span>
               To determine if a user has seen the dialog box that checks if they
               have read our Terms and Conditions, Privacy Policy, Cookie Policy,
-              Instance Guidelines, and the "Oldcord is in development" notice
+              Instance Guidelines, and the "Falcord is in development" notice
             </li>
           </ul>
           <span className={sectionStyles.text}>
@@ -98,10 +98,10 @@ const Cookies = () => {
           <span className={sectionStyles.text}>
             If you have any questions or concerns regarding our Cookie Policy,
             please feel free to contact us at
-            <span className={sectionStyles.bold}> contact@noia.site</span>.
+            <span className={sectionStyles.bold}> ErrorOliver+falcord@protonmail.com</span>.
           </span>
           <span className={sectionStyles.text}>
-            Thank you for using Oldcord!
+            Thank you for using Falcord!
           </span>
         </div>
       </div>
