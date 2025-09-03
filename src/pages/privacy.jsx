@@ -10,13 +10,14 @@ const Privacy = () => {
         <div className={styles["tagline-container"]}>
           <div className={styles["tagline-title"]}>Privacy Policy</div>
           <div className={`${styles["tagline-subtitle"]} text-light-gray`}>
-            Last Updated: November 15th, 2024 | Effective: TBD
+            Last Updated: September 3rd, 2025 | Effective: TBD
           </div>
         </div>
       </div>
       <div className={sectionStyles.section}>
         <div className={sectionStyles["section-content"]}>
           <span className={sectionStyles.title}>Introduction</span>
+          <span className={sectionStyles.text} style={{ marginBottom: "5px", fontStyle: "italic" }}>(we have to include these for legal reasons! legal stuff bla bla bla, i know.)</span>
           <span className={sectionStyles.text} style={{ marginBottom: "0" }}>
             Welcome! This Privacy Policy explains how we collect, use, store,
             protect, and share your personal information through our services.
@@ -187,9 +188,9 @@ const Privacy = () => {
             platform:
           </span>
           <ul>
-            <li className={sectionStyles.text}>
+            <!--<li className={sectionStyles.text}>
               Google reCAPTCHA (for security and abuse prevention)
-            </li>
+            </li>-->
             <li className={sectionStyles.text}>
               Cloudflare (for additional security measures)
             </li>
@@ -198,7 +199,7 @@ const Privacy = () => {
             You can review their respective privacy policies:
           </span>
           <ul>
-            <li className={sectionStyles.text}>
+            <!--<li className={sectionStyles.text}>
               <a
                 href="https://policies.google.com/privacy"
                 target="_blank"
@@ -206,7 +207,7 @@ const Privacy = () => {
               >
                 Google reCAPTCHA Privacy Policy
               </a>
-            </li>
+            </li>-->
             <li className={sectionStyles.text}>
               <a
                 href="https://www.cloudflare.com/privacypolicy/"
@@ -245,7 +246,7 @@ const Privacy = () => {
             You can request data deletion or exercise your privacy rights by:
           </span>
           <ul>
-            <li className={sectionStyles.text}>Email: contact@noia.site</li>
+            <li className={sectionStyles.text}>Email: ErrorOliver+falcord@protonmail.com</li>
             <li className={sectionStyles.text}>
               Direct Message: Through our Instance or Discord
             </li>
@@ -279,7 +280,7 @@ const Privacy = () => {
             practices, please contact us:
           </span>
           <ul>
-            <li className={sectionStyles.text}>Email: contact@noia.site</li>
+            <li className={sectionStyles.text}>Email: ErrorOliver+falcord@protonmail.com</li>
             <li className={sectionStyles.text}>
               Direct Message: Through our Instance or Discord
             </li>
