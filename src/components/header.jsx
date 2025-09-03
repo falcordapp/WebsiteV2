@@ -8,13 +8,13 @@ import GitHub from "../assets/github.svg?react";
 
 const NAV_ITEMS = [
   { to: "download", label: "Download" },
-  { href: "https://staging.oldcordapp.com/developers", label: "Bot Portal" },
+  { href: "https://falcord.ixchats.com/developers", label: "Bot Portal" },
 ];
 
 const SOCIAL_LINKS = [
   //{ href: "https://x.com/oldcord", Icon: Chirp },
   // { href: "https://discord.gg/VdxA4Dh8rq", Icon: Clyde },
-  { href: "https://github.com/oldcordapp", Icon: GitHub },
+  { href: "https://github.com/falcordapp", Icon: GitHub },
 ];
 
 const Header = ({ onGetStarted, textColorClass }) => (
@@ -55,10 +55,10 @@ const Header = ({ onGetStarted, textColorClass }) => (
         ))}
 
         <a
-          href="https://staging.oldcordapp.com/selector"
+          href="https://falcord.ixchats.com/selector"
           onClick={(e) => {
             e.preventDefault();
-            onGetStarted("https://staging.oldcordapp.com/selector");
+            onGetStarted("https://falcord.ixchats.com/selector");
           }} style={{'display' : 'none'}}
         >
           <li className={`${styles["list-item"]} ${styles["open-button"]}`}>
