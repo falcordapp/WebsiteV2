@@ -179,7 +179,7 @@ const About = () => {
               onClick={(e) => {
                 e.preventDefault();
                 onGetStarted("https://falcord.ixchats.com/selector");
-              }} style={{'display' : 'none'}}
+              }}
             >
               Get Started
             </a>
