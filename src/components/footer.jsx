@@ -15,7 +15,7 @@ const Footer = ({ onGetStarted, textColorClass }) => {
             </Link>
           </div>
           <div className={styles["navigation-section"]}>
-            <span className={styles["navigation-header"]}>Oldcord-related</span>
+            <span className={styles["navigation-header"]}>Falcord-related</span>
             <span className={styles["navigation-link"]}>
               <Link to="about">About Falcord</Link>
             </span>
