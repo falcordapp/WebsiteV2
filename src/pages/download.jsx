@@ -9,7 +9,7 @@ const Download = () => {
       <div className={styles.header}>
         <div className={styles["tagline-container"]}>
           <div className={styles["tagline-title"]}>
-            Download dalcord Desktop Client
+            Download Falcord Desktop Client
           </div>
           <div className={`${styles["tagline-subtitle"]} text-light-gray`}>
             Patched desktop client generously provided by CordPackers
