@@ -24,7 +24,7 @@ const About = () => {
         <div className={sectionStyles["section-content"]}>
           <span className={sectionStyles.title}>Who Are We?</span>
           <span className={sectionStyles.text}>
-            Welcome to Oldcord! We are first and foremost a historical
+            Welcome to Falcord! We are first and foremost a historical
             preservation project, aiming to preserve and maintain the legacy of
             a popular instant messaging service. While some may call us a
             revival (or "private server", if you prefer that term), our primary
@@ -34,7 +34,7 @@ const About = () => {
           </span>
           <span className={sectionStyles.text}>
             Many users today didn't experience the service during its prime, and
-            Oldcord provides a way for them to relive that experience — no time
+            Falcord provides a way for them to relive that experience — no time
             machine needed. We believe it's crucial to remember that the service
             wasn't always what it is today. Screenshots and articles can't
             capture the genuine feeling of using the platform during these
@@ -73,10 +73,10 @@ const About = () => {
             Note: We are not associated with the theme named Oldcord.
           </span>
           <span className={sectionStyles.title}>
-            What is unique about Oldcord?
+            What is unique about Falcord?
           </span>
           <span className={sectionStyles.text}>
-            Oldcord has developed many features over its existence, but always
+            Falcord has developed many features over its existence, but always
             with historical accuracy as our north star. Unlike other revivals
             that focus on a single point in time, we maintain multiple builds
             that showcase the service's evolution from 2015 through 2018. Each
@@ -87,7 +87,7 @@ const About = () => {
             We also have our own bootloader that downloads and patches client
             files in-browser, applying necessary quality-of-life updates while
             maintaining historical authenticity. Additionally, we maintain a
-            community server (both on Oldcord and on said instant messaging
+            community server (both on Falcord and on said instant messaging
             service) where users can discuss digital preservation and share
             their experiences with these historical versions.
           </span>
@@ -96,7 +96,7 @@ const About = () => {
           </span>
           <span className={sectionStyles.text}>
             As a historical preservation project, we serve a unique purpose in
-            the revival scene. Oldcord stands out as one of the only two public
+            the revival scene. Falcord stands out as one of the only two public
             revivals alongside Hummus, but our focus on maintaining historical
             accuracy and our unique features sets us apart. While other revivals
             may prioritize other things, we maintain a careful balance between
@@ -105,21 +105,21 @@ const About = () => {
           <span className={sectionStyles.text}>
             Of course, operating as a preservation project comes with its
             challenges and criticisms. We advise users and non-users alike to
-            take criticism of Oldcord with a grain of salt. We admit that there
+            take criticism of Falcord with a grain of salt. We admit that there
             is valid criticism, but much feedback stems from those who may not
             fully understand our mission of historical preservation.
           </span>
           <span className={sectionStyles.text}>
-            We believe that Oldcord provides an essential service in preserving
+            We believe that Falcord provides an essential service in preserving
             this period of said instant messaging service's history, offering
             stability that doesn't follow the "cycle of projects" that leaves
             revivals dead after a month.
           </span>
-          <span className={sectionStyles.title}>Who works on Oldcord?</span>
+          <span className={sectionStyles.title}>Who works on Falcord?</span>
           <span className={sectionStyles.text} style={{ marginBottom: "0" }}>
             We have a dedicated team of developers working in different areas:
           </span>
-          <ul>
+          <!--<ul>
             <li className={sectionStyles.text}>
               <span className={sectionStyles.bold}>API Reimplementation: </span>
               Ensuring historical accuracy in functionality and features
@@ -137,22 +137,26 @@ const About = () => {
           <span className={sectionStyles.text}>
             We also have our partners helping to preserve the service's history.
             (Some are also working on Oldcord!)
-          </span>
+          </span>-->
+            <li className={sectionStyles.text}>
+              <span className={sectionStyles.bold}>Add something here: </span>
+              I mean when it's more relevent, something should be added here.
+            </li>
           <span className={sectionStyles.text}>
-            Oldcord is open source, allowing anyone to contribute to our
+            Falcord is open source, allowing anyone to contribute to our
             preservation efforts while our core team focuses on maintaining
             historical accuracy.
           </span>
           <span className={sectionStyles.title}>How do I get started?</span>
           <span className={sectionStyles.text}>
-            Getting started with Oldcord is simple! We have a public instance
+            Getting started with Falcord is simple! We have a public instance
             that allows anyone can join and explore our preserved versions
             without needing an invitation. Just create an account, and you'll be
             able to experience these historical versions of the service
             firsthand.
           </span>
           <span className={sectionStyles.text}>
-            You can also host your own instance of Oldcord by following the
+            You can also host your own instance of Falcord by following the
             README file in our GitHub repository!
           </span>
           <span className={`${sectionStyles.text} ${sectionStyles.bold}`} style={{ fontStyle: "italic" }}>
@@ -167,14 +171,14 @@ const About = () => {
               That's it. We are <Logo />.
             </div>
             <span className={styles["upsell-text"]}>
-              Convinced? Use Oldcord now and experience the nostalgia!
+              Convinced? Use Falcord now and experience the nostalgia!
             </span>
             <a
-              href="https://staging.oldcordapp.com/selector"
+              href="https://falcord.ixchats.com/selector"
               className={`button button-hurple ${styles.button} ${styles["upsell-button"]}`}
               onClick={(e) => {
                 e.preventDefault();
-                onGetStarted("https://staging.oldcordapp.com/selector");
+                onGetStarted("https://falcord.ixchats.com/selector");
               }} style={{'display' : 'none'}}
             >
               Get Started
